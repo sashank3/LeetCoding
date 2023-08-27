@@ -3,7 +3,7 @@ class Solution:
 
         # make a res list and stack of same size as input
         # loop through all temps:
-        # if a temp is less than stack temp value, pop and keep popping till it no longer is.
+        # if a temp is more than stack temp value, pop and keep popping till it no longer is.
         # before each pop, calculate index on main res list and put diff of i - index of stack value
 
         res = [0] * len(temperatures)
